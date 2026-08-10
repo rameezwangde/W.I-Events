@@ -18,7 +18,7 @@ export default function Home() {
 
 
 
-    <section className="why section"><SectionTitle eyebrow="WHY NUKKAD NATAK" title="Why Street Theatre Creates Real Engagement" /><div className="stage"><div className="stage__center"><span>LIVE</span><strong>Human<br />Connection</strong></div>{['Immediate audience participation', 'Memorable human storytelling', 'Strong urban & rural reach', 'Flexible social & brand communication'].map((x, i) => <div className={`stage__point p${i + 1}`} key={x}><span>0{i + 1}</span>{x}</div>)}</div></section>
+    <section className="why section"><SectionTitle eyebrow="WHY NUKKAD NATAK" title="Why Street Theatre Creates Real Engagement" /><div className="stage"><div className="stage__center"><span>LIVE</span><strong>Human<br />Connection</strong></div>{['CROWDS GATHER', 'MESSAGES LAND', 'PEOPLE PARTICIPATE', 'STORIES STAY', 'CONVERSATIONS BEGIN'].map((x, i) => <div className={`stage__point p${i + 1}`} key={x}><span>0{i + 1}</span><div className="point-text">{x}</div></div>)}</div></section>
 
     <section className="journey section section--parchment"><SectionTitle eyebrow="CAMPAIGN JOURNEY" title="From Message to Movement" /><div className="timeline">{process.map((x, i) => <div className="timeline__step" key={x}><span>{String(i + 1).padStart(2, '0')}</span><h3>{x}</h3><p>{i === 0 ? 'We define the objective, audience and context.' : i === 1 ? 'Research becomes a clear, relevant performance script.' : i === 2 ? 'The right ensemble finds the rhythm, voice and movement.' : i === 3 ? 'Locations, logistics and approvals become one operating plan.' : i === 4 ? 'Performances meet audiences in real public spaces.' : 'Campaign activity is documented for review and learning.'}</p></div>)}</div></section>
 
