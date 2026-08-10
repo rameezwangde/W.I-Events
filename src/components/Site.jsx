@@ -43,7 +43,6 @@ export function Header(){
 }
 
 export function Footer(){return <footer className="footer">
-  <div className="footer__lead"><p>THE STREET BECOMES THE STAGE</p><h2>Messages made<br/>human.</h2><ButtonLink light>Get a Quote</ButtonLink></div>
   <div className="footer__grid"><div><h3>W.I. Events & Promotions</h3><p>Street theatre, CSR outreach and live campaigns shaped in Delhi and delivered across India.</p></div><div><h3>Navigate</h3>{nav.slice(1).map(([n,p])=><Link key={p} to={p}>{n}</Link>)}</div><div><h3>Services</h3>{services.slice(0,5).map(s=><Link key={s.slug} to={`/services/${s.slug}`}>{s.title}</Link>)}</div><address><h3>Delhi studio</h3><p>{contact.address}</p><a href={contact.phoneHref}>{contact.phone}</a><a href={`mailto:${contact.email}`}>{contact.email}</a></address></div>
   <div className="footer__bottom"><span>Â© {new Date().getFullYear()} W.I. Events & Promotions</span><span><Link to="/privacy">Privacy</Link><Link to="/terms">Terms</Link><a href="/sitemap.xml">Sitemap</a></span></div>
   </footer>}
