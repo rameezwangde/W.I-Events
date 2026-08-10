@@ -1,8 +1,8 @@
 export const contact = {
-  name: 'W.I. Events & Promotions', person: 'Neelesh Kumar', phone: '+91 9310996542',
-  phoneHref: 'tel:+919310996542', email: 'wellset08@gmail.com',
+  name: 'W.I. Events & Promotions', person: 'Neelesh Kumar', phone: '+91 84477 50546',
+  phoneHref: 'tel:+918447750546', email: 'nukkadnatakgroup@gmail.com',
   address: 'First Floor, Aashirwad Complex, Pitampura, New Delhi – 110034, India',
-  whatsapp: 'https://wa.me/919310996542?text=Hello%20W.I.%20Events%2C%20I%20would%20like%20to%20plan%20a%20campaign.'
+  whatsapp: 'https://wa.me/918447750546?text=Hello%20W.I.%20Events%2C%20I%20would%20like%20to%20plan%20a%20campaign.'
 }
 
 export const services = [

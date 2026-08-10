@@ -10,6 +10,11 @@ import { contact, seo, services } from '../data/siteData'
 gsap.registerPlugin(ScrollTrigger)
 const nav = [['Home','/'],['About','/about'],['Services','/services'],['Topics','/topics'],['Our Work','/our-work'],['Contact','/contact']]
 
+export const WhatsAppIcon = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+  </svg>
+)
 export function SEO({ title, description, schema, path }) {
   const location = useLocation(); const key = path || location.pathname
   const fallback = seo[key] || ['W.I. Events & Promotions | Nukkad Natak Delhi','Street theatre, CSR outreach, roadshows and awareness campaigns across Delhi NCR and India.']
@@ -48,7 +53,7 @@ export function Layout({children}){
   useEffect(()=>{window.scrollTo(0,0)},[loc.pathname])
   useEffect(()=>{if(matchMedia('(prefers-reduced-motion: reduce)').matches)return; const lenis=new Lenis({duration:1.05,smoothWheel:true}); let raf; const loop=t=>{lenis.raf(t);raf=requestAnimationFrame(loop)}; raf=requestAnimationFrame(loop); lenis.on('scroll',ScrollTrigger.update); return()=>{cancelAnimationFrame(raf);lenis.destroy()}},[])
   useEffect(()=>{const on=()=>{const max=document.documentElement.scrollHeight-innerHeight; if(progress.current) progress.current.style.transform=`scaleX(${max?scrollY/max:0})`}; addEventListener('scroll',on,{passive:true}); return()=>removeEventListener('scroll',on)},[])
-  return <><div className="scroll-progress" ref={progress}/><Header/><main id="main-content">{children}</main><Footer/><a href={contact.whatsapp} target="_blank" rel="noreferrer" className="whatsapp" aria-label="Enquire on WhatsApp"><MessageCircle/></a><div className="mobile-actions"><a href={contact.phoneHref}><Phone/>Call Now</a><Link to="/contact">Get a Quote</Link></div></>
+  return <><div className="scroll-progress" ref={progress}/><Header/><main id="main-content">{children}</main><Footer/><a href={contact.whatsapp} target="_blank" rel="noreferrer" className="whatsapp" aria-label="Enquire on WhatsApp"><WhatsAppIcon/></a><div className="mobile-actions"><a href={contact.phoneHref}><Phone/>Call Now</a><Link to="/contact">Get a Quote</Link></div></>
 }
 
 export function PageHero({eyebrow='W.I. Events & Promotions',title,copy,image=true}){return <section className={`page-hero ${image?'page-hero--image':''}`}><div className="noise"/><div className="page-hero__content"><span className="eyebrow">{eyebrow}</span><h1>{title}</h1>{copy&&<p>{copy}</p>}</div></section>}
