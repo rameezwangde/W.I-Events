@@ -1,4 +1,4 @@
-﻿import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 import { ArrowUpRight, Menu, X, Phone, MessageCircle, ChevronDown, ChevronLeft, ChevronRight } from 'lucide-react'
@@ -31,14 +31,14 @@ export function Header(){
   useEffect(()=>{document.body.style.overflow=open?'hidden':''; return()=>document.body.style.overflow=''},[open])
   return <header className={`header ${scrolled?'is-scrolled':''}`}>
     <Link to="/" className="brand" aria-label="W.I. Events home"><strong>W.I.</strong><span>Events & Promotions<small>Nukkad Natak Â· Theatre Â· Outreach</small></span></Link>
-    <nav className="desktop-nav" aria-label="Main navigation">{nav.map(([n,p])=><NavLink key={p} to={p}>{n}</NavLink>)}<ButtonLink>Plan a Campaign</ButtonLink></nav>
+    <nav className="desktop-nav" aria-label="Main navigation">{nav.map(([n,p])=><NavLink key={p} to={p}>{n}</NavLink>)}<ButtonLink>Get a Quote</ButtonLink></nav>
     <button className="menu-toggle" onClick={()=>setOpen(!open)} aria-expanded={open} aria-label="Open menu">{open?<X/>:<Menu/>}</button>
     <div className={`mobile-menu ${open?'is-open':''}`} aria-hidden={!open}><div className="mobile-menu__inner">{nav.map(([n,p],i)=><NavLink key={p} to={p}><span>0{i+1}</span>{n}</NavLink>)}<a href={contact.phoneHref}>{contact.phone}</a></div></div>
   </header>
 }
 
 export function Footer(){return <footer className="footer">
-  <div className="footer__lead"><p>THE STREET BECOMES THE STAGE</p><h2>Messages made<br/>human.</h2><ButtonLink light>Plan a Campaign</ButtonLink></div>
+  <div className="footer__lead"><p>THE STREET BECOMES THE STAGE</p><h2>Messages made<br/>human.</h2><ButtonLink light>Get a Quote</ButtonLink></div>
   <div className="footer__grid"><div><h3>W.I. Events & Promotions</h3><p>Street theatre, CSR outreach and live campaigns shaped in Delhi and delivered across India.</p></div><div><h3>Navigate</h3>{nav.slice(1).map(([n,p])=><Link key={p} to={p}>{n}</Link>)}</div><div><h3>Services</h3>{services.slice(0,5).map(s=><Link key={s.slug} to={`/services/${s.slug}`}>{s.title}</Link>)}</div><address><h3>Delhi studio</h3><p>{contact.address}</p><a href={contact.phoneHref}>{contact.phone}</a><a href={`mailto:${contact.email}`}>{contact.email}</a></address></div>
   <div className="footer__bottom"><span>Â© {new Date().getFullYear()} W.I. Events & Promotions</span><span><Link to="/privacy">Privacy</Link><Link to="/terms">Terms</Link><a href="/sitemap.xml">Sitemap</a></span></div>
   </footer>}
@@ -48,7 +48,7 @@ export function Layout({children}){
   useEffect(()=>{window.scrollTo(0,0)},[loc.pathname])
   useEffect(()=>{if(matchMedia('(prefers-reduced-motion: reduce)').matches)return; const lenis=new Lenis({duration:1.05,smoothWheel:true}); let raf; const loop=t=>{lenis.raf(t);raf=requestAnimationFrame(loop)}; raf=requestAnimationFrame(loop); lenis.on('scroll',ScrollTrigger.update); return()=>{cancelAnimationFrame(raf);lenis.destroy()}},[])
   useEffect(()=>{const on=()=>{const max=document.documentElement.scrollHeight-innerHeight; if(progress.current) progress.current.style.transform=`scaleX(${max?scrollY/max:0})`}; addEventListener('scroll',on,{passive:true}); return()=>removeEventListener('scroll',on)},[])
-  return <><div className="scroll-progress" ref={progress}/><Header/><main id="main-content">{children}</main><Footer/><a href={contact.whatsapp} target="_blank" rel="noreferrer" className="whatsapp" aria-label="Enquire on WhatsApp"><MessageCircle/></a><div className="mobile-actions"><a href={contact.phoneHref}><Phone/>Call Now</a><Link to="/contact">Plan a Campaign</Link></div></>
+  return <><div className="scroll-progress" ref={progress}/><Header/><main id="main-content">{children}</main><Footer/><a href={contact.whatsapp} target="_blank" rel="noreferrer" className="whatsapp" aria-label="Enquire on WhatsApp"><MessageCircle/></a><div className="mobile-actions"><a href={contact.phoneHref}><Phone/>Call Now</a><Link to="/contact">Get a Quote</Link></div></>
 }
 
 export function PageHero({eyebrow='W.I. Events & Promotions',title,copy,image=true}){return <section className={`page-hero ${image?'page-hero--image':''}`}><div className="noise"/><div className="page-hero__content"><span className="eyebrow">{eyebrow}</span><h1>{title}</h1>{copy&&<p>{copy}</p>}</div></section>}
@@ -59,7 +59,7 @@ export function Breadcrumbs({items}){return <nav className="breadcrumbs" aria-la
 
 export function Accordion({items}){const [open,setOpen]=useState(0); return <div className="accordion">{items.map(([q,a],i)=><div className={`accordion__item ${open===i?'is-open':''}`} key={q}><button onClick={()=>setOpen(open===i?-1:i)} aria-expanded={open===i}><span>{String(i+1).padStart(2,'0')}</span>{q}<ChevronDown/></button><div className="accordion__answer"><p>{a}</p></div></div>)}</div>}
 
-export function ContactCTA(){return <section className="contact-cta"><div><span className="eyebrow">YOUR MESSAGE. OUR STAGE.</span><h2>Have a Message People Need to Hear?</h2><p>Letâ€™s turn it into a performance that informs, engages and stays with the audience.</p><div className="button-row"><ButtonLink light>Plan Your Campaign</ButtonLink><a className="text-link" href={contact.phoneHref}>Call {contact.phone}<ArrowUpRight/></a></div></div></section>}
+export function ContactCTA(){return <section className="contact-cta"><div><span className="eyebrow">YOUR MESSAGE. OUR STAGE.</span><h2>Have a Message People Need to Hear?</h2><p>Letâ€™s turn it into a performance that informs, engages and stays with the audience.</p><div className="button-row"><ButtonLink light>Get a Quote</ButtonLink><a className="text-link" href={contact.phoneHref}>Call {contact.phone}<ArrowUpRight/></a></div></div></section>}
 
 export function Gallery({full=false}){const cats=['All','CSR Activities','Roadshows','Social Awareness','Rural Marketing','Theatre']; const [cat,setCat]=useState('All'); const [light,setLight]=useState(null); const items=Array.from({length:full?10:6},(_,i)=>({cat:cats[(i%5)+1],img:i%3===1?'/images/street-theatre-rehearsal-delhi.webp':'/images/nukkad-natak-delhi-performance.webp',cap:['Live street theatre performance','Rehearsal and ensemble preparation','Audience-focused public outreach'][i%3]})); const shown=cat==='All'?items:items.filter(x=>x.cat===cat)
   useEffect(()=>{const key=e=>{if(light===null)return;if(e.key==='Escape')setLight(null);if(e.key==='ArrowRight')setLight((light+1)%shown.length);if(e.key==='ArrowLeft')setLight((light-1+shown.length)%shown.length)};addEventListener('keydown',key);return()=>removeEventListener('keydown',key)},[light,shown.length])
