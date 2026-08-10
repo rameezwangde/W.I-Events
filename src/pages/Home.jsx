@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import gsap from 'gsap'
-import { ArrowDown, ArrowUpRight } from 'lucide-react'
+import { ArrowDown, ArrowUpRight, Award, Globe, Megaphone, MapPin, Map } from 'lucide-react'
 import { SEO, ButtonLink, SectionTitle, Accordion, ContactCTA, Gallery } from '../components/Site'
 import { services, process, topics, faqs, contact } from '../data/siteData'
 
@@ -22,7 +22,7 @@ export default function Home() {
 
     <section className="journey section section--parchment"><SectionTitle eyebrow="CAMPAIGN JOURNEY" title="From Message to Movement" /><div className="timeline">{process.map((x, i) => <div className="timeline__step" key={x}><span>{String(i + 1).padStart(2, '0')}</span><h3>{x}</h3><p>{i === 0 ? 'We define the objective, audience and context.' : i === 1 ? 'Research becomes a clear, relevant performance script.' : i === 2 ? 'The right ensemble finds the rhythm, voice and movement.' : i === 3 ? 'Locations, logistics and approvals become one operating plan.' : i === 4 ? 'Performances meet audiences in real public spaces.' : 'Campaign activity is documented for review and learning.'}</p></div>)}</div></section>
 
-    <section className="topics-preview section"><SectionTitle eyebrow="CAMPAIGN TOPICS" title="Big Subjects. Clear Human Stories." copy="Social and public-interest themes handled with research, sensitivity and language suited to the audience." /><div className="topic-wall">{topics.slice(0, 6).map(([g, ...xs], i) => <Link key={g} to="/topics" className={`topic-block topic-block--${i}`}><span>0{i + 1}</span><h3>{g}</h3><p>{xs.slice(0, 2).join(' Â· ')}</p></Link>)}</div><ButtonLink to="/topics">Explore All Topics</ButtonLink></section>
+    <section className="topics-preview section"><SectionTitle eyebrow="AT A GLANCE" title="Our Impact in Numbers" copy="Delivering powerful messages across diverse languages and locations." /><div className="topic-wall">{(() => { const stats = [{ icon: Award, title: '10+', text: 'YEARS Experience' },{ icon: Globe, title: '13+', text: 'LANGUAGES' },{ icon: Megaphone, title: '200+', text: 'CAMPAIGNS' },{ icon: MapPin, title: '100+', text: 'LOCATIONS' },{ icon: Map, title: 'PAN INDIA', text: 'REACH' }]; return stats.map((s, i) => { const Icon = s.icon; return <div key={i} className={`topic-block topic-block--${i}`}><span style={{display: 'flex', alignItems: 'center', gap: '0.5rem', opacity: 0.8}}><Icon size={16} /> 0{i + 1}</span><h3 style={{fontSize: 'clamp(2.5rem, 5vw, 4rem)', marginBottom: '0.5rem'}}>{s.title}</h3><p style={{fontSize: '1.2rem', letterSpacing: '0.1em'}}>{s.text}</p></div> }) })()}</div></section>
 
     <section className="work-preview section section--dark"><SectionTitle dark eyebrow="SELECTED WORK" title="A Living Visual Archive" copy="A glimpse of the formats, people and public spaces at the heart of our work." /><Gallery /><div className="center"><ButtonLink light to="/our-work">View Our Work</ButtonLink></div></section>
 
