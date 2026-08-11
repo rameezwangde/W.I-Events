@@ -423,7 +423,11 @@ img {
 
 .stage__center {
   position: absolute;
-  inset: 32%;
+  top: 50%;
+  left: 50%;
+  width: 35%;
+  aspect-ratio: 1;
+  transform: translate(-50%, -50%);
   background: var(--red);
   color: white;
   border-radius: 50%;
@@ -432,7 +436,6 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
-  animation: stage-spin-reverse-center 40s linear infinite
 }
 
 .stage__center span {
@@ -916,7 +919,11 @@ img {
 
 .stage__center {
   position: absolute;
-  inset: 37%;
+  top: 50%;
+  left: 50%;
+  width: 35%;
+  aspect-ratio: 1;
+  transform: translate(-50%, -50%);
   background: var(--red);
   color: white;
   border-radius: 50%;
@@ -925,7 +932,6 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
-  animation: stage-spin-reverse-center 40s linear infinite
 }
 
 .stage__center span {
