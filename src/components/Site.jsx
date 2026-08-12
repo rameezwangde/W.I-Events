@@ -8,7 +8,7 @@ import Lenis from 'lenis'
 import { contact, seo, services } from '../data/siteData'
 
 gsap.registerPlugin(ScrollTrigger)
-const nav = [['Home','/'],['About','/about'],['Services','/services'],['Topics','/topics'],['Our Work','/our-work'],['Contact','/contact']]
+const nav = [['Home','/'],['About','/about'],['Services','/services'],['Topics','/topics'],['Contact','/contact']]
 
 export const WhatsAppIcon = () => (
   <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" xmlns="http://www.w3.org/2000/svg">

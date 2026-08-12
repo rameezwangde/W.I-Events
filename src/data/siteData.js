@@ -44,6 +44,5 @@ export const seo = {
   '/about': ['About W.I. Events & Promotions | Delhi Street Theatre Team','Meet the Delhi-based team combining Nukkad Natak, scriptwriting, theatre production and pan-India outreach planning.'],
   '/services': ['Nukkad Natak, CSR Campaign & Roadshow Services in India','Explore street plays, CSR awareness campaigns, roadshows, rural marketing, theatre and brand activation services.'],
   '/topics': ['Nukkad Natak Topics for CSR & Awareness Campaigns','Explore social, health, education, safety, environment and government awareness topics for customised street plays.'],
-  '/our-work': ['Nukkad Natak & Outreach Campaign Work | W.I. Events','View an artistic archive of street theatre, CSR, roadshow, rural marketing and awareness campaign formats.'],
   '/contact': ['Plan a Nukkad Natak or Awareness Campaign in Delhi','Contact W.I. Events & Promotions for Nukkad Natak, CSR, roadshow and outreach campaign planning across India.']
 }
