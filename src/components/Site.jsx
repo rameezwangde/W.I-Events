@@ -61,7 +61,7 @@ export function SectionTitle({eyebrow,title,copy,dark=false}){const ref=useRef()
 
 export function Breadcrumbs({items}){return <nav className="breadcrumbs" aria-label="Breadcrumb"><Link to="/">Home</Link>{items.map((x,i)=><span key={x.path||x.name}>/ {x.path?<Link to={x.path}>{x.name}</Link>:x.name}</span>)}</nav>}
 
-export function Accordion({items}){const [open,setOpen]=useState(0); return <div className="accordion">{items.map(([q,a],i)=><div className={`accordion__item ${open===i?'is-open':''}`} key={q}><button onClick={()=>setOpen(open===i?-1:i)} aria-expanded={open===i}><span>{String(i+1).padStart(2,'0')}</span>{q}<ChevronDown/></button><div className="accordion__answer"><p>{a}</p></div></div>)}</div>}
+export function Accordion({items, showNumbers=true}){const [open,setOpen]=useState(0); return <div className="accordion">{items.map(([q,a],i)=><div className={`accordion__item ${open===i?'is-open':''}`} key={q}><button onClick={()=>setOpen(open===i?-1:i)} aria-expanded={open===i}>{showNumbers && <span>{String(i+1).padStart(2,'0')}</span>}{q}<ChevronDown/></button><div className="accordion__answer"><p>{a}</p></div></div>)}</div>}
 
 export function ContactCTA(){return <section className="contact-cta"><div><span className="eyebrow">YOUR MESSAGE. OUR STAGE.</span><h2>Have a Message People Need to Hear?</h2><p>Letâ€™s turn it into a performance that informs, engages and stays with the audience.</p><div className="button-row"><ButtonLink light>Get a Quote</ButtonLink><a className="text-link" href={contact.phoneHref}>Call {contact.phone}<ArrowUpRight/></a></div></div></section>}
 
