@@ -94,7 +94,14 @@ export const faqs = [
   ['How can we request a campaign quotation?','Share the topic, city, preferred date and approximate number of performances through the enquiry form, phone or WhatsApp.']
 ]
 
-export const process = ['Brief & audience understanding','Research & script development','Casting & rehearsals','Production & campaign planning','On-ground performances','Documentation & reporting']
+export const process = [
+  ['Brief & audience understanding','We define the objective, audience and context.'],
+  ['Research & script development','Research becomes a clear, relevant performance script.'],
+  ['Casting & rehearsals','The right ensemble finds the rhythm, voice and movement.'],
+  ['Production & campaign planning','Locations, logistics and approvals become one operating plan.'],
+  ['On-ground performances','Performances meet audiences in real public spaces.'],
+  ['Documentation & reporting','Campaign activity is documented for review and learning.']
+]
 
 export const seo = {
   '/': ['Nukkad Natak Company in Delhi | W.I. Events & Promotions','Professional Nukkad Natak, CSR campaigns, roadshows, theatre productions and rural activations delivered across Delhi and India.'],
