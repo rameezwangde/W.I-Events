@@ -38,7 +38,7 @@ export function Header() {
     <Link to="/" className="brand" aria-label="Natak Baaz Home"><img src="/images/new.jpeg" alt="Natak Baaz" className="header__logo-img" style={{ maxHeight: '75px', width: 'auto' }} /></Link>
     <nav className="desktop-nav" aria-label="Main navigation">{nav.map(([n, p]) => <NavLink key={p} to={p}>{n}</NavLink>)}<ButtonLink>Get a Quote</ButtonLink></nav>
     <button className="menu-toggle" onClick={() => setOpen(!open)} aria-expanded={open} aria-label="Open menu">{open ? <X /> : <Menu />}</button>
-    <div className={`mobile-menu ${open ? 'is-open' : ''}`} aria-hidden={!open}><div className="mobile-menu__inner">{nav.map(([n, p], i) => <NavLink key={p} to={p}><span>0{i + 1}</span>{n}</NavLink>)}<a href={contact.phoneHref}>{contact.phone}</a></div></div>
+    <div className={`mobile-menu ${open ? 'is-open' : ''}`} aria-hidden={!open}><div className="mobile-menu__inner">{nav.map(([n, p]) => <NavLink key={p} to={p}>{n}</NavLink>)}<a href={contact.phoneHref}>{contact.phone}</a></div></div>
   </header>
 }
 
