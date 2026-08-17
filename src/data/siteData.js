@@ -79,50 +79,186 @@ export const services = [
       ['4. Do you work with multiple schools or campuses under one program?','Yes. For school networks or college groups running a shared awareness initiative, execution is planned as a single coordinated programme across all campuses involved.'],
       ['5. How long does a typical school assembly nukkad natak performance last?','Assembly performances are generally kept short enough to fit within a standard assembly slot, with exact duration agreed in advance based on the institution\'s schedule.']
     ]},
-  { slug:'posh-awareness-training-nukkad-natak', title:'POSH Awareness Training Nukkad Natak', short:'Dramatised workplace scenarios and street theatre that make POSH compliance training engaging, relatable, and easy to understand.', applications:['Internal Committee (IC) awareness','Workplace sensitivity & inclusion','Corporate compliance & prevention of harassment'],
+  { slug:'posh-awareness-training-nukkad-natak', title:'POSH Awareness Training Nukkad Natak',
+    pageTitle: 'POSH Awareness Training Nukkad Natak',
+    contentSections: [
+      {
+        heading: 'Understanding POSH Awareness Training Nukkad Natak',
+        paragraphs: [
+          'The Prevention of Sexual Harassment (POSH) Act requires organisations to conduct awareness activities for employees on a recurring basis, and most HR and Internal Committee teams know that a slide deck read out once a year does very little to change how people actually behave at work. Nukkad natak has become one of the more effective formats for POSH awareness training precisely because it is not a lecture.',
+          'A short, scripted performance built around realistic workplace situations gives employees something to watch, react to and discuss, rather than something to sit through. This matters for a compliance topic that depends on employees actually understanding what constitutes appropriate conduct, what the reporting process looks like, and why raising a concern is protected rather than risky.',
+          'A performance-based format creates a shared moment that a room of employees experiences together, which tends to generate more genuine discussion afterwards than a one-way presentation. For HR teams, this also solves a practical problem: POSH training needs to be repeated periodically and delivered consistently across locations, and a well-built nukkad natak module travels far more easily than a facilitator-dependent workshop.',
+          'Organisations across manufacturing, IT, BFSI and other sectors use this format for annual POSH sensitisation, onboarding modules for new employees, and refresher sessions tied to compliance audits.'
+        ]
+      },
+      {
+        heading: 'How We Deliver POSH Awareness Training Nukkad Natak',
+        paragraphs: [
+          'Every POSH awareness engagement starts with a conversation with HR or the Internal Committee to understand the organisation\'s workforce composition, prior training history and any specific sensitivities relevant to the workplace. Scenarios are written to reflect realistic situations without referencing or resembling any actual incident, and scripts are reviewed with the client before performance to ensure the tone and content are appropriate for the audience.',
+          'Performances are typically held on-site, whether at an office floor, a cafeteria space, or a factory premise, and are structured to run within a defined session length that fits around working hours. Many organisations pair the performance with a short facilitated discussion afterwards, either led by our team or handed over to the client\'s HR representative, so the session moves from watching to talking.',
+          'For organisations with multiple offices or manufacturing units, we plan POSH awareness rollouts as a single programme across locations, maintaining consistency in message and quality from one site to the next. Session content and any internal details shared during planning are treated as confidential, and nothing from a client engagement is used in any other context.'
+        ]
+      }
+    ],
+    short:'Dramatised workplace scenarios and street theatre that make POSH compliance training engaging, relatable, and easy to understand.', applications:['Internal Committee (IC) awareness','Workplace sensitivity & inclusion','Corporate compliance & prevention of harassment'],
     steps:[
-      ['Corporate POSH Mandate Alignment','Reviewing your company policy, IC guidelines, and specific workplace dynamics to target real-world scenarios.'],
-      ['Nuanced Scenario Scripting','Writing subtle, realistic office scenarios covering consent, boundaries, digital harassment, and reporting protocols.'],
-      ['Professional Actor Training','Training professional corporate actors to convey nuanced workplace situations with sensitivity and clarity.'],
-      ['Office & Townhall Logistics','Scheduling performances for cafeterias, town halls, conference rooms, or hybrid/virtual broadcasts.'],
-      ['Interactive Dramatic Delivery','Staging scenario enactments followed by guided discussions and facilitator-led debriefs.'],
-      ['Compliance Report & Engagement Metrics','Providing documentation and employee feedback summaries for HR compliance records.']
+      ['HR & Internal Committee Alignment','Every engagement begins with a conversation to understand workforce composition, prior training history, and specific sensitivities.'],
+      ['Realistic Scenario Scripting','Scenarios reflect realistic situations without referencing actual incidents, and are reviewed with the client for appropriate tone and content.'],
+      ['On-Site Execution Logistics','Performances are held on-site (office floors, cafeterias, factory premises) and structured to fit seamlessly into working hours.'],
+      ['Facilitated Discussions','The performance is often paired with a short facilitated discussion led by our team or HR, shifting the session from watching to talking.'],
+      ['Multi-Location Consistency','For organizations with multiple sites, we plan rollouts as a single coordinated program to ensure messaging remains consistent everywhere.'],
+      ['Strict Confidentiality','Session content and internal details shared during planning are treated as highly confidential and are never used in any other context.']
+    ],
+    faqs: [
+      ['1. Is nukkad natak an accepted format for POSH awareness training under the POSH Act?','Nukkad natak is used by many organisations as one delivery format within their broader POSH compliance training, alongside sessions run by their Internal Committee. It works well as an engaging, discussion-generating component of an annual awareness programme.'],
+      ['2. Can the performance be customized to our organization\'s specific workplace scenarios?','Yes. Scenarios are developed in consultation with HR to reflect realistic workplace situations relevant to your organisation, without referencing any actual incident.'],
+      ['3. How long does a POSH nukkad natak session typically run?','Session length is agreed in advance based on the organisation\'s schedule, typically structured to fit within a standard working session along with time for discussion afterward.'],
+      ['4. Do you provide POSH training across multiple office or plant locations?','Yes. For organisations with multiple sites, we plan and deliver the programme as a single coordinated rollout to maintain consistency across locations.'],
+      ['5. Is this suitable for both white-collar offices and factory floor employees?','Yes. Format, language and delivery style are adapted separately for office environments and factory or plant settings, since the two audiences engage differently with the same core message.']
     ]},
-  { slug:'social-awareness-nukkad-natak', title:'Social Awareness Nukkad Natak', short:'Powerful, community-focused street theatre that breaks taboos, raises consciousness, and inspires real social change.', applications:['Gender equality & women safety','Substance abuse & health education','Child rights & anti-trafficking'],
+  { slug:'social-awareness-nukkad-natak', title:'Social Awareness Nukkad Natak',
+    pageTitle: 'Social Awareness Nukkad Natak',
+    contentSections: [
+      {
+        heading: 'Understanding Social Awareness Nukkad Natak',
+        paragraphs: [
+          'Social awareness nukkad natak covers the broad category of street theatre performed to inform, educate or shift behaviour around a public issue, rather than to promote a product or communicate an internal message. This is the oldest and most recognisable use of the format in India, and it remains widely used because it does something few other communication tools can: it delivers a message directly into the physical space where people already gather, without asking them to opt in first.',
+          'The themes that fall under social awareness are wide-ranging, and different commissioning bodies tend to focus on different priorities. Government departments and municipal corporations use the format for sanitation, water conservation and civic responsibility campaigns. Corporate CSR teams use it for health, environment and community welfare initiatives tied to their social responsibility programmes. NGOs and development organisations use it for issues like gender equality, child rights, substance abuse and community health, often as part of a longer-term behaviour change effort rather than a single campaign.',
+          'What connects all of these is the format\'s ability to work at the community level, in markets, residential colonies, village squares and public gathering points, reaching audiences that a poster or a digital campaign would not. A social awareness campaign is rarely built around a single theme in isolation; it is usually one part of a broader outreach effort that includes other IEC formats.'
+        ]
+      },
+      {
+        heading: 'How We Deliver Social Awareness Campaigns',
+        paragraphs: [
+          'We begin every social awareness engagement by identifying the specific behaviour or understanding the campaign is meant to shift, since a script built around a vague theme rarely holds an audience\'s attention the way one built around a clear message does. Content is developed for the theme in question, whether that is sanitation, environmental conservation, gender equality or public health, and adapted into the language relevant to the performance location.',
+          'Execution is planned around where the target audience actually spends time, which for community-level campaigns usually means market areas, residential societies, community centres and public squares rather than closed venues. Where a campaign covers multiple themes within a single outreach effort, we sequence performances so each theme gets its own clear script rather than combining several messages into one diluted performance.',
+          'For campaigns that are part of a larger IEC effort, social awareness nukkad natak works alongside other formats such as wall paintings and printed material, and we coordinate scheduling accordingly. For a deeper look at how we approach specific themes such as road safety, sanitation, health or environmental awareness, each has its own dedicated campaign page with theme-specific detail.'
+        ]
+      }
+    ],
+    short:'Powerful, community-focused street theatre that breaks taboos, raises consciousness, and inspires real social change.', applications:['Gender equality & women safety','Substance abuse & health education','Child rights & anti-trafficking'],
     steps:[
-      ['Social Issue Research','In-depth study of the social cause, root factors, common myths, and community sensitivities.'],
-      ['Emotionally Charged Storytelling','Developing gripping narratives and hard-hitting dialogues that provoke thought and empathy.'],
-      ['Ensemble Rehearsals','Practicing traditional nukkad natak vocal projections, dhafli rhythms, and synchronized movements.'],
-      ['Community Location Scouting','Identifying high-footfall spots like markets, transit hubs, community centers, and chowks.'],
-      ['Live Public Staging','Drawing large crowds in public spaces and delivering unforgettable messages of change.'],
-      ['Impact Capture & Coverage','Documenting audience reactions, pledge signings, and qualitative engagement impact.']
+      ['Behavioural Objective Identification','We begin by identifying the specific behaviour or understanding the campaign is meant to shift, building the script around a clear message.'],
+      ['Theme & Language Adaptation','Content is developed for the specific theme and adapted into the language and dialect relevant to the performance location.'],
+      ['Targeted Location Planning','Execution is planned around where the target audience spends their time, such as market areas, residential societies, and public squares.'],
+      ['Multi-Theme Sequencing','If a campaign covers multiple themes, we sequence performances so each theme gets its own clear script rather than diluting the message.'],
+      ['Multi-Format IEC Coordination','When part of a larger IEC effort, we coordinate scheduling to work seamlessly alongside wall paintings, van publicity, and printed material.'],
+      ['Specialized Theme Approach','We deploy tailored approaches for specific critical themes like road safety, sanitation, health, and environmental awareness.']
+    ],
+    faqs: [
+      ['1. What social issues can be addressed through nukkad natak?','Nukkad natak can be built around most public awareness themes, including sanitation, health, environmental conservation, gender equality, substance abuse and civic responsibility, depending on the commissioning organisation\'s objective.'],
+      ['2. Can a single campaign cover multiple awareness themes?','Yes, though we generally recommend a separate, focused script for each theme rather than combining several messages into one performance, since a clear single message holds an audience\'s attention better.'],
+      ['3. Do you perform in rural as well as urban community settings?','Yes. Social awareness campaigns are delivered across both rural and urban settings, with location and language adapted to the audience in each case.'],
+      ['4. How do you adapt the message for different audiences?','Scripts are written or adjusted for the specific audience, considering language, local context and the format of the space where the performance will take place.'],
+      ['5. Can social awareness nukkad natak be combined with other IEC formats like wall painting?','Yes. Social awareness street theatre is frequently delivered as part of a wider IEC campaign that includes wall paintings, pamphlets or van publicity, and we coordinate scheduling to fit within that larger effort.']
     ]},
-  { slug:'brand-promotion-nukkad-natak', title:'Brand Promotion Nukkad Natak', short:'High-energy, creative brand storytelling that turns public spaces into buzz-worthy promotional stages for products and services.', applications:['New product launches','Market & mall activations','Consumer education & sampling'],
+  { slug:'brand-promotion-nukkad-natak', title:'Brand Promotion Nukkad Natak',
+    pageTitle: 'Brand Promotion Nukkad Natak',
+    contentSections: [
+      {
+        heading: 'Understanding Brand Promotion Nukkad Natak',
+        paragraphs: [
+          'Brand promotion nukkad natak uses the same street theatre format as an awareness campaign, but with a different objective: visibility, recall and direct engagement with a consumer audience, rather than behaviour change around a social issue. Brands use this format at markets, residential societies, malls, festivals and high-footfall public locations to introduce a product, build recall in a specific region, or create a memorable moment that a hoarding or a print advertisement cannot replicate.',
+          'What makes street theatre effective for brand promotion is the same quality that makes it effective for awareness work: it holds attention. A well-written performance draws a crowd, keeps them watching, and creates space for the brand to be woven into a story rather than announced as an advertisement. This tends to work particularly well for regional launches, mass-market products and campaigns aimed at building recall in specific geographies where the brand wants direct, on-ground presence rather than only digital or print reach.',
+          'Unlike a purely artistic street play, brand promotion work has to balance storytelling with a clear commercial message, and it usually involves some form of audience interaction, whether that is product sampling, a simple activity, or a call to action woven into the performance itself.'
+        ]
+      },
+      {
+        heading: 'How We Deliver Brand Promotion Nukkad Natak',
+        paragraphs: [
+          'We start by understanding the brand brief, the product and the specific outcome the campaign is meant to drive, whether that is awareness in a new market, recall ahead of a launch, or engagement at an event. The storyline is built to integrate the product naturally rather than reading as an advertisement performed live, since audiences disengage quickly from anything that feels like a sales pitch rather than a performance.',
+          'Locations are chosen for footfall and relevance to the target audience, which might mean a market junction, a residential society, a mela ground or a festival gathering, depending on where the brand wants visibility. Where the campaign calls for it, we build in audience interaction such as product sampling, a simple engagement activity, or a distribution moment tied to the story, so the crowd\'s attention converts into direct contact with the brand.',
+          'For campaigns that need to run across multiple cities as part of a regional or national launch, we plan execution as a single coordinated rollout, and provide a report covering locations covered, approximate footfall and audience engagement, so the brand team has a record of what was delivered at each stop.'
+        ]
+      }
+    ],
+    short:'High-energy, creative brand storytelling that turns public spaces into buzz-worthy promotional stages for products and services.', applications:['New product launches','Market & mall activations','Consumer education & sampling'],
     steps:[
-      ['Brand USP & Consumer Insight Brief','Analyzing the brand value proposition, consumer pain points, and target demographic.'],
-      ['Entertaining Brand Integration','Writing entertaining storylines that organically weave in product benefits without feeling like a hard sell.'],
-      ['Production & Branded Props','Preparing branded costumes, props, backdrop banners, and audio setups for high visual recall.'],
-      ['Multi-Market Scheduling','Coordinating activation routes across high-traffic retail markets, tech parks, and commercial hubs.'],
-      ['High-Energy Performance & Sampling','Engaging crowds with humor, drama, and product interaction, driving immediate brand recall.'],
-      ['Footfall Analytics & Visual Assets','Delivering high-resolution performance photos, videos, and footfall engagement numbers.']
+      ['Brand Brief & Outcome Alignment','We start by understanding the product and specific campaign outcomes, whether driving awareness, recall, or direct engagement.'],
+      ['Natural Product Integration','Storylines are built to integrate the product naturally without feeling like a live sales pitch, keeping audiences engaged.'],
+      ['High-Footfall Location Scouting','Locations are selected for maximum footfall and target audience relevance, such as market junctions, societies, and festivals.'],
+      ['Interactive Sampling & Engagement','We build audience interaction into the performance, converting crowd attention directly into product sampling or brand activities.'],
+      ['Multi-City Coordinated Rollout','For regional or national launches across multiple cities, we plan execution as a single seamlessly coordinated rollout.'],
+      ['Footfall & Engagement Reporting','We provide comprehensive post-campaign reports covering locations, approximate footfall, and audience engagement levels.']
+    ],
+    faqs: [
+      ['1. How is brand promotion nukkad natak different from a regular street play?','Brand promotion nukkad natak is built around a commercial objective such as visibility, recall or engagement, and integrates a product or brand message into the storyline, while a general street play is typically built around a social or awareness theme.'],
+      ['2. Can the performance include product sampling or audience interaction?','Yes. Where relevant, we build audience interaction such as product sampling, a simple activity or a distribution moment into the performance to turn attention into direct engagement.'],
+      ['3. What locations work best for brand promotion street theatre?','High-footfall public spaces work best, including markets, residential societies, mela grounds and festival gatherings, depending on where the target audience is most concentrated.'],
+      ['4. Can this be rolled out across multiple cities for a product launch?','Yes. Multi-city rollouts are planned as a single coordinated campaign to maintain consistent storytelling and execution quality across every location.'],
+      ['5. Do you provide footfall or engagement reporting after the campaign?','Yes. We provide a report covering the locations performed, approximate footfall and audience engagement for each stop of the campaign.']
     ]},
-  { slug:'corporate-culture-nukkad-natak', title:'Corporate Culture Building Nukkad Natak', short:'Engaging theatre interventions for corporate team building, change management, ethics, and company core values.', applications:['Annual corporate meets & offsites','Diversity, equity & inclusion (DEI)','Change management & core value rollouts'],
+  { slug:'corporate-culture-nukkad-natak', title:'Corporate Culture Building Nukkad Natak',
+    pageTitle: 'Corporate Culture Building Nukkad Natak',
+    contentSections: [
+      {
+        heading: 'Understanding Corporate Culture Building Nukkad Natak',
+        paragraphs: [
+          'Company values and codes of conduct are usually communicated through documents, intranet pages and induction slide decks, and most organisations know how little of that actually shapes daily behaviour. Corporate culture building nukkad natak takes a different approach: instead of stating a value, it performs a situation that brings the value to life, giving employees something they can recognise, discuss and remember, rather than something they scroll past.',
+          'This format works particularly well during specific organisational moments: onboarding new employees who need to understand not just policy but the tone of how things actually work, a culture change initiative following a merger or restructuring, or a values refresh that leadership wants to land differently than a memo would. A performance built around a relatable workplace scenario, whether about collaboration, integrity, respect or accountability, tends to generate the kind of conversation afterward that a values poster on the wall never does.',
+          'Because this is internal communication rather than public messaging, the content has to be built carefully around the organisation\'s actual culture and language, not a generic set of corporate values that could apply to any company. A script that feels authentic to the organisation performing it lands very differently from one that feels borrowed.'
+        ]
+      },
+      {
+        heading: 'How We Deliver Corporate Culture Building Nukkad Natak',
+        paragraphs: [
+          'We start with a conversation with HR or leadership to understand the specific values, behaviours or culture shift the organisation wants to reinforce, and the context behind it, whether that is an onboarding programme, a post-merger integration, or a standalone culture initiative. Scenarios are scripted around situations relevant to the organisation\'s actual working environment, without referencing real individuals or events, so the performance feels grounded rather than generic.',
+          'Performances are typically delivered at town halls, offsites, onboarding sessions or leadership meets, in a format short enough to fit within an existing agenda without becoming the entire event. For organisations that want culture messaging to be reinforced over time rather than delivered once, we structure repeatable modules that can be performed periodically, such as at each onboarding cohort or at a recurring leadership gathering, so the message compounds rather than fading after a single session.',
+          'For organisations with distributed teams across multiple offices, we plan delivery as a coordinated rollout so every location receives the same core message with the same quality of execution, which matters for culture communication in a way it might not for a one-off promotional event.'
+        ]
+      }
+    ],
+    short:'Engaging theatre interventions for corporate team building, change management, ethics, and company core values.', applications:['Annual corporate meets & offsites','Diversity, equity & inclusion (DEI)','Change management & core value rollouts'],
     steps:[
-      ['Leadership & HR Alignment','Understanding the organizational culture goals, key leadership messages, and employee pulse.'],
-      ['Workplace Narrative Development','Creating relatable corporate stories that reflect everyday office life and organizational aspirations.'],
-      ['Polished Ensemble Rehearsal','Refining tone, humor, and messaging to match professional corporate standards.'],
-      ['On-Site / Offsite Venue Staging','Seamless execution at company premises, banquet halls, retreats, or annual general meetings.'],
-      ['Immersive Theatre Performance','Delivering an inspiring, interactive performance that breaks monotony and sparks dialogue.'],
-      ['Feedback & Post-Event Highlights','Providing photo/video highlight reels and employee engagement feedback.']
+      ['HR & Leadership Alignment','We start by understanding the specific values, behaviours, or culture shift the organisation wants to reinforce in context.'],
+      ['Contextual Scenario Scripting','Scenarios are scripted around situations relevant to the actual working environment without using generic corporate templates.'],
+      ['Event-Integrated Delivery','Performances are structured to fit seamlessly into existing agendas for town halls, offsites, or onboarding sessions.'],
+      ['Repeatable Module Structuring','For ongoing reinforcement, we design repeatable modules that can be performed periodically for new cohorts or recurring gatherings.'],
+      ['Coordinated Multi-Office Rollout','For distributed teams, we plan coordinated delivery across multiple offices to ensure the core message lands consistently.'],
+      ['Authentic Corporate Language','Scripts are built carefully using the organisation\'s actual internal language so the performance feels authentic and grounded.']
+    ],
+    faqs: [
+      ['1. How can nukkad natak help communicate company values and culture?','Nukkad natak turns an abstract value into a relatable scenario employees can watch and discuss, which tends to generate more genuine engagement and retention than a policy document or a slide presentation.'],
+      ['2. Is this suitable for onboarding new employees?','Yes. Culture-building performances work well as part of an onboarding programme, giving new employees a memorable introduction to how the organisation actually expects people to behave, alongside formal policy training.'],
+      ['3. Can the performance be tied to a specific culture change or rebranding initiative?','Yes. Scripts can be built specifically around a merger, restructuring or values refresh, so the performance supports the exact transition the organisation is going through.'],
+      ['4. Do you customize scripts to reflect our organization\'s specific values?','Yes. Every script is developed around the organisation\'s actual values and working environment rather than a generic corporate template, based on a briefing with HR or leadership.'],
+      ['5. Can culture-building nukkad natak be performed at town halls or offsite events?','Yes. Performances are commonly scheduled at town halls, offsites, onboarding sessions and leadership meets, structured to fit within the existing agenda.']
     ]},
-  { slug:'ngo-nukkad-natak', title:'NGO Nukkad Natak', short:'Grassroots street theatre crafted for non-profits and foundations to mobilize communities and amplify advocacy campaigns.', applications:['Grassroots community mobilization','Fundraising & donor awareness events','Rural & urban slum outreach'],
+  { slug:'ngo-nukkad-natak', title:'NGO Nukkad Natak',
+    pageTitle: 'NGO Nukkad Natak',
+    contentSections: [
+      {
+        heading: 'Understanding NGO Nukkad Natak',
+        paragraphs: [
+          'For NGOs and development sector organisations, nukkad natak is often less about a single campaign and more about a long-running tool for community mobilisation. Development programmes around health, education, livelihood, child rights and gender equality frequently work in areas where print material has limited reach and digital communication has even less, and street theatre remains one of the most reliable ways to start a conversation with a community rather than simply deliver information at it.',
+          'What sets NGO work apart from a typical corporate or government engagement is the relationship with the community itself. A performance that appears without context or local buy-in can feel like an intrusion, while one that is coordinated with local coordinators, community leaders or field staff tends to build trust and participation. This is particularly important for programmes that need the community to act on the message afterward, whether that means adopting a health practice, enrolling children in school, or engaging with a livelihood initiative, rather than simply watching a performance and moving on.',
+          'NGO campaigns also tend to operate under budget and reporting constraints that differ from corporate or government work, and a partner that understands both the grassroots execution and the documentation needs of donor-funded programmes makes the process considerably easier to manage.'
+        ]
+      },
+      {
+        heading: 'How We Deliver NGO Nukkad Natak Campaigns',
+        paragraphs: [
+          'We begin by understanding the specific development objective the programme is working toward, since a nukkad natak built for a health behaviour change initiative needs a very different script from one built for a child rights or livelihood programme. Scripts are developed in the local language or dialect relevant to the project area, since community-level trust depends heavily on the performance feeling like it belongs to that community rather than being delivered from outside it.',
+          'Execution is coordinated with the NGO\'s local field staff or community coordinators wherever possible, so performances are scheduled around community gathering points and timings that make sense locally, and so the programme\'s existing relationships with the community are respected rather than bypassed. For projects in remote or rural areas, we plan logistics around the realities of the location, rather than defaulting to an urban execution model.',
+          'Because NGO campaigns are frequently tied to donor funding and reporting cycles, documentation is built into the delivery, with performance records maintained in a format that can support the organisation\'s funder reports. We also work within the budget structures common to the development sector, since NGO campaigns rarely have the flexibility of a corporate marketing budget.'
+        ]
+      }
+    ],
+    short:'Grassroots street theatre crafted for non-profits and foundations to mobilize communities and amplify advocacy campaigns.', applications:['Grassroots community mobilization','Fundraising & donor awareness events','Rural & urban slum outreach'],
     steps:[
-      ['NGO Mission & Cause Brief','Collaborating closely with NGO program leads to understand project goals and community context.'],
-      ['Culturally Sensitive Scriptwriting','Drafting scripts that respect local customs, dispel superstitions, and deliver empowering messages.'],
-      ['Community-Centric Rehearsals','Rehearsing impactful folk songs, slogans, and authentic community-level interaction techniques.'],
-      ['Field Coordination & Mobilization','Working with on-ground NGO volunteers for venue readiness and crowd mobilization.'],
-      ['Grassroots Live Performances','Delivering passionate, ground-level performances that foster trust and inspire action.'],
-      ['Grant & Donor Documentation','Compiling comprehensive photographic evidence, attendee counts, and field feedback for donor reports.']
+      ['Development Objective Alignment','We start by understanding the specific development goals, whether health, education, livelihood, or rights-based.'],
+      ['Local Language Scripting','Scripts are written in the local dialect to build trust and ensure the performance feels native to the community.'],
+      ['Field Staff Coordination','Execution is coordinated with local field staff to respect existing relationships and schedule at optimal gathering points.'],
+      ['Remote & Rural Logistics','For non-urban projects, we plan logistics that align with the specific realities of remote or rural locations.'],
+      ['Donor-Ready Documentation','Performance records are maintained in a format designed specifically to support NGO funder and donor reporting.'],
+      ['Flexible Budget Structuring','We adapt to the budget realities of the development sector, scaling campaigns to fit non-profit resources.']
+    ],
+    faqs: [
+      ['1. How does nukkad natak support NGO community mobilization programs?','Nukkad natak creates a direct, in-person moment with a community that print or digital communication often cannot reach, making it effective for starting conversations and encouraging action around a programme\'s objective.'],
+      ['2. Can performances be conducted in remote or rural project areas?','Yes. Execution is planned around the realities of the project location, including remote and rural areas, rather than assuming an urban delivery model.'],
+      ['3. Do you provide documentation suitable for donor or funder reporting?','Yes. Performance records are maintained in a format that can support an NGO\'s funder and donor reporting requirements.'],
+      ['4. Can the script be aligned with our program\'s specific development objectives?','Yes. Scripts are developed around the specific objective of the programme, whether that is health, education, livelihood, gender or child rights focused.'],
+      ['5. Is this a cost-effective option for NGOs with limited campaign budgets?','We work within the budget structures common to development sector programmes, and campaigns can be scaled to fit the resources available to the organisation.']
     ]},
 ]
 
