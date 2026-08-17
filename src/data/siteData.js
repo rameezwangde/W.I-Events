@@ -6,14 +6,42 @@ export const contact = {
 }
 
 export const services = [
-  { slug:'government-iec-nukkad-natak', title:'Government & IEC Nukkad Natak', short:'Impactful Information, Education, and Communication (IEC) street theatre campaigns for government schemes, public health, and civic welfare.', applications:['Government schemes awareness','Public health & sanitation drives','Civic & voter awareness campaigns'],
+  { slug:'government-iec-nukkad-natak', title:'Government & IEC Nukkad Natak',
+    pageTitle: 'Government & IEC Nukkad Natak Campaigns',
+    contentSections: [
+      {
+        heading: 'Understanding Government & IEC Nukkad Natak',
+        paragraphs: [
+          'Government departments, municipal corporations and public sector bodies across India rely on Information, Education and Communication (IEC) activities to carry official messages beyond what a poster or a pamphlet can achieve. Nukkad natak, or street play, has remained one of the most consistently used formats within IEC campaigns because it does something print and digital media cannot: it holds an audience in place, in their own neighbourhood, for the length of the message.',
+          'Where a hoarding is glanced at and forgotten, a street play performed at a market junction or a housing colony draws people in, keeps them watching, and often starts a conversation that continues after the performers have moved on to the next location. This makes street theatre particularly effective for the kind of public awareness campaigns that government departments run around sanitation, health, water conservation, road safety and civic responsibility.',
+          'It reaches audiences that formal communication frequently misses, including populations with lower literacy, rural and semi-urban communities, and areas where digital penetration is inconsistent. IEC campaign briefs from ministries, municipal bodies and mission-linked programmes routinely list nukkad natak alongside wall paintings, van publicity and printed material, not as a standalone activity but as one component of a coordinated outreach effort.',
+          'For a department or agency evaluating vendors, the practical questions are straightforward: can the format be adapted to the campaign\'s specific message, can it be delivered at the scale and geography the mandate requires, and can the execution be documented in a way that supports the department\'s own reporting. These are the questions our approach is built to answer.'
+        ]
+      },
+      {
+        heading: 'How We Deliver Government & IEC Nukkad Natak Campaigns',
+        paragraphs: [
+          'Every government or IEC assignment begins with the campaign brief, not with a stock script. We work from the department\'s communication objective, whether that is a sanitation drive tied to a mission timeline, a health awareness push around a seasonal concern, or a civic messaging campaign for a municipal body, and build the script around that specific objective. Scripts are adapted into the languages and dialects relevant to the performance location, since a street play delivered in a language the audience does not fully follow loses most of its value.',
+          'Execution is planned around the geography the campaign requires, whether that means a single city, a district-wide rollout, or performances across multiple locations within a defined timeline. Our teams coordinate with local administration for the permissions a public performance needs, and performances are scheduled to reach genuine footfall, market days, community gathering points and residential areas, rather than convenient but empty locations.',
+          'Because government and IEC campaigns are typically tied to a department\'s own project file, documentation is built into the process rather than treated as an afterthought. Each performance is logged by location and date, and a completion report is prepared in a format that supports the department\'s internal record-keeping and monitoring requirements. This is the layer of the work that a purely artistic troupe often overlooks, and it is the layer that matters most once a campaign has to be accounted for.'
+        ]
+      }
+    ],
+    short:'Impactful Information, Education, and Communication (IEC) street theatre campaigns for government schemes, public health, and civic welfare.', applications:['Government schemes awareness','Public health & sanitation drives','Civic & voter awareness campaigns'],
     steps:[
-      ['Policy & Objective Analysis','We study the scheme guidelines, target demographics, and key messages to create an effective communication framework.'],
-      ['Script & Cultural Adaptation','Custom scripts are written in regional dialects and languages to connect deeply with local communities.'],
-      ['Performer Casting & Rehearsals','Skilled street theatre artists rehearse rigorously for high-energy, memorable public performances.'],
-      ['Permissions & Route Coordination','We manage location permissions, sound setup, and logistical route planning across target villages and urban clusters.'],
-      ['Live On-Ground Execution','Engaging live performances that draw large crowds and deliver clear, actionable messages.'],
-      ['Reporting & Media Documentation','Complete geo-tagged photos, video documentation, and audience reach reports for compliance and review.']
+      ['Campaign Brief & Objective Analysis','Every assignment begins with the campaign brief. We work from the department\'s communication objective—whether a sanitation drive, health push, or civic messaging—to build a targeted script.'],
+      ['Script & Dialect Adaptation','Scripts are adapted into the languages and dialects relevant to the performance location, ensuring the street play connects effectively with the local audience.'],
+      ['Geographic Route Planning','Execution is planned around the geography the campaign requires, whether that means a single city, a district-wide rollout, or performances across multiple locations.'],
+      ['Permissions & Scheduling','Our teams coordinate with local administration for necessary permissions. Performances are scheduled to reach genuine footfall, market days, and community gathering points.'],
+      ['Live On-Ground Execution','Performances are delivered in public spaces, ensuring the format adapts to the campaign\'s specific message and reaches populations with lower literacy or inconsistent digital access.'],
+      ['Documentation & Reporting','Each performance is logged by location and date. A completion report is prepared to support the department\'s internal record-keeping and project file monitoring requirements.']
+    ],
+    faqs: [
+      ['1. What is IEC and how does nukkad natak fit into an IEC campaign?','IEC stands for Information, Education and Communication, a term used by government departments for structured public awareness activities. Nukkad natak is one of the formats used within an IEC campaign, typically alongside wall paintings, pamphlets and van publicity, to deliver a message directly to a community audience.'],
+      ['2. Can nukkad natak be performed in regional and local languages for government campaigns?','Yes. Scripts are adapted to the language and dialect relevant to each performance location, since government awareness campaigns are most effective when the message is delivered in the language the local audience actually speaks.'],
+      ['3. Do you provide documentation and reports required for government project files?','Yes. Every performance is logged by location and date, and a completion report is prepared that can support a department\'s monitoring and project documentation requirements.'],
+      ['4. How many locations can a single IEC nukkad natak campaign cover?','Campaigns can be scaled from a single city to a multi-district rollout, depending on the mandate. Execution planning is built around the campaign timeline and the geography the department specifies.'],
+      ['5. Is nukkad natak suitable for rural and semi-urban government awareness drives?','Yes. Street theatre is particularly effective in rural and semi-urban areas where literacy levels and digital access can limit the reach of printed or online communication.']
     ]},
   { slug:'school-college-nukkad-natak', title:'School & College Nukkad Natak', short:'Youth-centric street plays addressing critical student issues such as anti-ragging, mental health, career motivation, and social responsibility.', applications:['Campus awareness drives','Anti-ragging & youth safety','Environmental & social responsibility'],
     steps:[
