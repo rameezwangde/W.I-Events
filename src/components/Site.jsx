@@ -60,7 +60,7 @@ export function Footer() {
         {services.map(s => <Link key={s.slug} to={`/services/${s.slug}`}>{s.title}</Link>)}
       </div>
       <address>
-        <h3>Delhi studio</h3>
+        <h3>Office Address</h3>
         <p>{contact.address}</p>
         <a href={contact.phoneHref}>{contact.phone}</a>
         <a href={`mailto:${contact.email}`}>{contact.email}</a>
