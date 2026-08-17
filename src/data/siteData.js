@@ -6,68 +6,68 @@ export const contact = {
 }
 
 export const services = [
-  { slug:'nukkad-natak', title:'Nukkad Natak & Street Plays', short:'Original, audience-led street theatre that turns public spaces into places of conversation.', applications:['CSR awareness','Public education','Campus and community outreach'],
+  { slug:'government-iec-nukkad-natak', title:'Government & IEC Nukkad Natak', short:'Impactful Information, Education, and Communication (IEC) street theatre campaigns for government schemes, public health, and civic welfare.', applications:['Government schemes awareness','Public health & sanitation drives','Civic & voter awareness campaigns'],
     steps:[
-      ['Understanding Campaign Goals','We study your objectives, target audience and core message to craft a performance that resonates and creates real impact.'],
-      ['Research & Script Development','Our writers research the topic deeply and develop a compelling script with realistic situations, powerful dialogues and audience hooks.'],
-      ['Casting & Rehearsals','We audition and cast skilled performers, then rehearse extensively to ensure confident delivery, strong expressions and proper timing.'],
-      ['Production & Logistics Planning','Costumes, props, music, route mapping and location permissions are all coordinated before the campaign begins.'],
-      ['Live Street Performances','Our artists perform at designated locations — schools, markets, public spaces — engaging audiences directly with energy and emotion.'],
-      ['Documentation & Reporting','Every performance is documented with photos, videos and attendance data, delivered as a comprehensive campaign report.']
+      ['Policy & Objective Analysis','We study the scheme guidelines, target demographics, and key messages to create an effective communication framework.'],
+      ['Script & Cultural Adaptation','Custom scripts are written in regional dialects and languages to connect deeply with local communities.'],
+      ['Performer Casting & Rehearsals','Skilled street theatre artists rehearse rigorously for high-energy, memorable public performances.'],
+      ['Permissions & Route Coordination','We manage location permissions, sound setup, and logistical route planning across target villages and urban clusters.'],
+      ['Live On-Ground Execution','Engaging live performances that draw large crowds and deliver clear, actionable messages.'],
+      ['Reporting & Media Documentation','Complete geo-tagged photos, video documentation, and audience reach reports for compliance and review.']
     ]},
-  { slug:'csr-awareness-campaigns', title:'CSR Awareness Campaigns', short:'Research-led communication programmes that help social messages reach people with clarity and empathy.', applications:['Community engagement','Behaviour-change communication','Employee outreach'],
+  { slug:'school-college-nukkad-natak', title:'School & College Nukkad Natak', short:'Youth-centric street plays addressing critical student issues such as anti-ragging, mental health, career motivation, and social responsibility.', applications:['Campus awareness drives','Anti-ragging & youth safety','Environmental & social responsibility'],
     steps:[
-      ['Stakeholder & Audience Mapping','We identify your CSR objectives, map stakeholder expectations and define the communities that need to be reached.'],
-      ['Research & Message Strategy','Our team studies the social issue in depth and develops a communication framework that balances information with empathy.'],
-      ['Creative Format Design','We choose the right mix of street theatre, workshops, activations and collateral to carry the message effectively.'],
-      ['Team Preparation & Rehearsal','Performers and facilitators are briefed, scripts are finalised, and rehearsals ensure every interaction feels authentic.'],
-      ['On-Ground Campaign Execution','Multi-location rollouts are coordinated with local teams, ensuring consistent delivery and genuine community engagement.'],
-      ['Impact Assessment & Reporting','We compile reach data, audience feedback and visual documentation into a structured impact report for your records.']
+      ['Campus Need Assessment','Understanding the institutional guidelines, student age group, and core messaging required for the campus.'],
+      ['Relatable Youth Scripting','Crafting engaging scripts with contemporary dialogue, humour, and powerful emotional takeaways that resonate with youth.'],
+      ['Energetic Ensemble Rehearsals','Rehearsing dynamic choreography, rhythm, and interactive cues to captivate fast-moving student audiences.'],
+      ['Auditorium & Campus Staging','Coordinating with institution coordinators for open-air amphitheatre, quadrangle, or auditorium staging.'],
+      ['Interactive Live Performance','High-impact performances accompanied by live music, slogans, and post-play Q&A interactions.'],
+      ['Documentation & Student Feedback','Compiling visual highlights, faculty testimonials, and student engagement data.']
     ]},
-  { slug:'roadshows', title:'Roadshows & Mobile Promotions', short:'Coordinated mobile campaigns built to carry one clear message across multiple locations.', applications:['Multi-city outreach','Product education','Public-information drives'],
+  { slug:'posh-awareness-training-nukkad-natak', title:'POSH Awareness Training Nukkad Natak', short:'Dramatised workplace scenarios and street theatre that make POSH compliance training engaging, relatable, and easy to understand.', applications:['Internal Committee (IC) awareness','Workplace sensitivity & inclusion','Corporate compliance & prevention of harassment'],
     steps:[
-      ['Route & Market Analysis','We study target geographies, footfall patterns and local demographics to design the most effective roadshow route.'],
-      ['Campaign Concept & Messaging','A cohesive creative concept is developed — from vehicle branding to performance scripts — ensuring message consistency.'],
-      ['Fleet & Production Setup','Branded vehicles, sound systems, props and promotional material are prepared and quality-checked before launch.'],
-      ['Team Deployment & Training','Field teams are briefed on messaging, crowd engagement techniques and location-specific protocols.'],
-      ['Multi-Location Execution','The roadshow rolls out across planned stops with live performances, product demos and direct audience interaction.'],
-      ['Daily Tracking & Final Report','Each stop is tracked with GPS data, audience numbers, photos and videos — compiled into a full campaign report.']
+      ['Corporate POSH Mandate Alignment','Reviewing your company policy, IC guidelines, and specific workplace dynamics to target real-world scenarios.'],
+      ['Nuanced Scenario Scripting','Writing subtle, realistic office scenarios covering consent, boundaries, digital harassment, and reporting protocols.'],
+      ['Professional Actor Training','Training professional corporate actors to convey nuanced workplace situations with sensitivity and clarity.'],
+      ['Office & Townhall Logistics','Scheduling performances for cafeterias, town halls, conference rooms, or hybrid/virtual broadcasts.'],
+      ['Interactive Dramatic Delivery','Staging scenario enactments followed by guided discussions and facilitator-led debriefs.'],
+      ['Compliance Report & Engagement Metrics','Providing documentation and employee feedback summaries for HR compliance records.']
     ]},
-  { slug:'rural-marketing', title:'Rural Marketing & Activations', short:'Culturally aware on-ground experiences designed for rural audiences and regional contexts.', applications:['Village contact programmes','Market activations','Last-mile communication'],
+  { slug:'social-awareness-nukkad-natak', title:'Social Awareness Nukkad Natak', short:'Powerful, community-focused street theatre that breaks taboos, raises consciousness, and inspires real social change.', applications:['Gender equality & women safety','Substance abuse & health education','Child rights & anti-trafficking'],
     steps:[
-      ['Village & Market Intelligence','We research local culture, dialect, market days and community gathering points to plan authentic outreach.'],
-      ['Culturally Adapted Messaging','Scripts and materials are developed in local languages with culturally relevant references that rural audiences connect with.'],
-      ['Local Team Recruitment','We recruit and train local coordinators who understand the community, ensuring trust and smoother engagement.'],
-      ['Logistics & Permissions','Transport, equipment, venue arrangements and administrative clearances are handled for even the most remote locations.'],
-      ['Ground-Level Activations','Live performances, product sampling, health camps or awareness drives are executed with high energy and community involvement.'],
-      ['Reach Documentation & Insights','Village-wise data, photos, videos and qualitative feedback are compiled into a detailed field report.']
+      ['Social Issue Research','In-depth study of the social cause, root factors, common myths, and community sensitivities.'],
+      ['Emotionally Charged Storytelling','Developing gripping narratives and hard-hitting dialogues that provoke thought and empathy.'],
+      ['Ensemble Rehearsals','Practicing traditional nukkad natak vocal projections, dhafli rhythms, and synchronized movements.'],
+      ['Community Location Scouting','Identifying high-footfall spots like markets, transit hubs, community centers, and chowks.'],
+      ['Live Public Staging','Drawing large crowds in public spaces and delivering unforgettable messages of change.'],
+      ['Impact Capture & Coverage','Documenting audience reactions, pledge signings, and qualitative engagement impact.']
     ]},
-  { slug:'theatre-drama', title:'Theatre & Drama Productions', short:'Scripted stage productions shaped through strong writing, casting, rehearsal and performance direction.', applications:['Institutional events','Theatre productions','Educational programmes'],
+  { slug:'brand-promotion-nukkad-natak', title:'Brand Promotion Nukkad Natak', short:'High-energy, creative brand storytelling that turns public spaces into buzz-worthy promotional stages for products and services.', applications:['New product launches','Market & mall activations','Consumer education & sampling'],
     steps:[
-      ['Story & Theme Development','We collaborate with you to define the narrative arc, theme and emotional tone of the production.'],
-      ['Scriptwriting & Dramaturgy','Professional writers develop a full script with attention to structure, dialogue, character depth and dramatic pacing.'],
-      ['Auditions & Casting','We hold auditions to find the right talent, matching performers to roles based on skill, presence and chemistry.'],
-      ['Intensive Rehearsal Process','Weeks of structured rehearsals refine blocking, delivery, transitions and ensemble coordination.'],
-      ['Technical & Stage Production','Lighting, sound, set design, costumes and props are designed and installed for a polished stage experience.'],
-      ['Performance & Post-Show Review','The production is staged with full technical support, followed by documentation and a collaborative review.']
+      ['Brand USP & Consumer Insight Brief','Analyzing the brand value proposition, consumer pain points, and target demographic.'],
+      ['Entertaining Brand Integration','Writing entertaining storylines that organically weave in product benefits without feeling like a hard sell.'],
+      ['Production & Branded Props','Preparing branded costumes, props, backdrop banners, and audio setups for high visual recall.'],
+      ['Multi-Market Scheduling','Coordinating activation routes across high-traffic retail markets, tech parks, and commercial hubs.'],
+      ['High-Energy Performance & Sampling','Engaging crowds with humor, drama, and product interaction, driving immediate brand recall.'],
+      ['Footfall Analytics & Visual Assets','Delivering high-resolution performance photos, videos, and footfall engagement numbers.']
     ]},
-  { slug:'government-awareness-campaigns', title:'Government Awareness Campaigns', short:'Accessible public communication for civic initiatives, safety programmes and social priorities.', applications:['Civic awareness','Safety weeks','Public participation'],
+  { slug:'corporate-culture-nukkad-natak', title:'Corporate Culture Building Nukkad Natak', short:'Engaging theatre interventions for corporate team building, change management, ethics, and company core values.', applications:['Annual corporate meets & offsites','Diversity, equity & inclusion (DEI)','Change management & core value rollouts'],
     steps:[
-      ['Policy & Mandate Understanding','We study the government initiative, its objectives, target demographics and the regulatory framework around it.'],
-      ['Public Communication Strategy','Our team designs a clear, jargon-free messaging framework that translates policy language into everyday understanding.'],
-      ['Content & Collateral Development','Scripts, pamphlets, banners and audio-visual material are produced in multiple languages as needed.'],
-      ['Mobilisation & Coordination','Field teams, local authorities and community leaders are aligned to ensure smooth campaign deployment.'],
-      ['Public Engagement & Outreach','Street plays, rallies, school visits and community meetings are conducted across designated locations and dates.'],
-      ['Compliance Reporting & Documentation','All activities are documented with GPS-tagged photos, attendance sheets and structured reports for departmental records.']
+      ['Leadership & HR Alignment','Understanding the organizational culture goals, key leadership messages, and employee pulse.'],
+      ['Workplace Narrative Development','Creating relatable corporate stories that reflect everyday office life and organizational aspirations.'],
+      ['Polished Ensemble Rehearsal','Refining tone, humor, and messaging to match professional corporate standards.'],
+      ['On-Site / Offsite Venue Staging','Seamless execution at company premises, banquet halls, retreats, or annual general meetings.'],
+      ['Immersive Theatre Performance','Delivering an inspiring, interactive performance that breaks monotony and sparks dialogue.'],
+      ['Feedback & Post-Event Highlights','Providing photo/video highlight reels and employee engagement feedback.']
     ]},
-  { slug:'brand-activations', title:'Brand Activations', short:'Human, high-attention brand experiences for malls, schools, public spaces and live audiences.', applications:['Product launches','Mall and school activations','Audience demonstrations'],
+  { slug:'ngo-nukkad-natak', title:'NGO Nukkad Natak', short:'Grassroots street theatre crafted for non-profits and foundations to mobilize communities and amplify advocacy campaigns.', applications:['Grassroots community mobilization','Fundraising & donor awareness events','Rural & urban slum outreach'],
     steps:[
-      ['Brand & Audience Briefing','We study your brand identity, product positioning, target audience and the experience you want people to walk away with.'],
-      ['Activation Concept Design','A creative concept is developed — from interactive setups to performance scripts — designed to stop people and hold attention.'],
-      ['Production & Material Prep','Branded elements, props, costumes, sampling kits and tech setups are produced and quality-checked.'],
-      ['Venue Coordination & Permissions','Mall management, school authorities or event organisers are coordinated for permissions, timing and logistics.'],
-      ['Live Brand Experience','Performers and brand ambassadors execute the activation with energy, product knowledge and crowd-reading skills.'],
-      ['Performance Metrics & Report','Footfall, engagement rates, sampling numbers and content captures are compiled into an activation performance report.']
+      ['NGO Mission & Cause Brief','Collaborating closely with NGO program leads to understand project goals and community context.'],
+      ['Culturally Sensitive Scriptwriting','Drafting scripts that respect local customs, dispel superstitions, and deliver empowering messages.'],
+      ['Community-Centric Rehearsals','Rehearsing impactful folk songs, slogans, and authentic community-level interaction techniques.'],
+      ['Field Coordination & Mobilization','Working with on-ground NGO volunteers for venue readiness and crowd mobilization.'],
+      ['Grassroots Live Performances','Delivering passionate, ground-level performances that foster trust and inspire action.'],
+      ['Grant & Donor Documentation','Compiling comprehensive photographic evidence, attendee counts, and field feedback for donor reports.']
     ]},
 ]
 
