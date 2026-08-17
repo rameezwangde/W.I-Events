@@ -43,14 +43,41 @@ export const services = [
       ['4. How many locations can a single IEC nukkad natak campaign cover?','Campaigns can be scaled from a single city to a multi-district rollout, depending on the mandate. Execution planning is built around the campaign timeline and the geography the department specifies.'],
       ['5. Is nukkad natak suitable for rural and semi-urban government awareness drives?','Yes. Street theatre is particularly effective in rural and semi-urban areas where literacy levels and digital access can limit the reach of printed or online communication.']
     ]},
-  { slug:'school-college-nukkad-natak', title:'School & College Nukkad Natak', short:'Youth-centric street plays addressing critical student issues such as anti-ragging, mental health, career motivation, and social responsibility.', applications:['Campus awareness drives','Anti-ragging & youth safety','Environmental & social responsibility'],
+  { slug:'school-college-nukkad-natak', title:'School & College Nukkad Natak',
+    pageTitle: 'School & College Nukkad Natak Programs',
+    contentSections: [
+      {
+        heading: 'Understanding School & College Nukkad Natak',
+        paragraphs: [
+          'Schools and colleges across India regularly bring in professional street theatre performers for assemblies, orientation programmes and awareness weeks, because a nukkad natak reaches students in a way that a classroom lecture or an assembly speech rarely does. The format is short, direct and performed at close range, which makes it well-suited to the kind of topics educational institutions are increasingly expected to address: road safety, digital literacy, substance abuse, mental health, gender sensitisation and civic responsibility.',
+          'Students who might disengage from a slide presentation tend to stay engaged with a live performance happening a few feet in front of them. Institutions use school and college nukkad natak programmes in a few distinct ways. Some bring in a troupe to perform at a morning assembly as part of an ongoing awareness calendar. Others schedule a themed performance around a specific event, such as a road safety week or a health awareness day.',
+          'A growing number also invite experienced performers to run a workshop alongside the performance, giving student groups the chance to learn basic street theatre technique before an inter-house or interschool competition. Because the audience is students rather than adults, the content, pacing and tone need to be calibrated differently from a corporate or government performance. A programme built for a Class VI assembly and one built for a college orientation are not the same script, even when the underlying theme is similar.'
+        ]
+      },
+      {
+        heading: 'How We Deliver School & College Nukkad Natak Programs',
+        paragraphs: [
+          'We begin by understanding the institution\'s objective and the age group involved, since a script that works for senior secondary students will not land the same way with a middle school audience. Content is written to be age-appropriate, and performances are structured to fit within an assembly slot or a scheduled awareness session, typically running to a length the school or college specifies in advance.',
+          'For institutions that want more than a single performance, we offer a workshop component where students are guided through the basics of street theatre, from voice projection and stage presence to structuring a short scene around a message. This works well ahead of inter-house or inter-school nukkad natak competitions, where the goal shifts from watching a performance to helping students create their own.',
+          'Scheduling is coordinated directly with the school or college administration, working around exam periods, assembly timings and academic calendars. For school groups or college networks running the same awareness initiative across multiple campuses, we plan execution as a single coordinated programme rather than a series of separate bookings, so the message and quality stay consistent from one campus to the next.'
+        ]
+      }
+    ],
+    short:'Youth-centric street plays addressing critical student issues such as anti-ragging, mental health, career motivation, and social responsibility.', applications:['Campus awareness drives','Anti-ragging & youth safety','Environmental & social responsibility'],
     steps:[
-      ['Campus Need Assessment','Understanding the institutional guidelines, student age group, and core messaging required for the campus.'],
-      ['Relatable Youth Scripting','Crafting engaging scripts with contemporary dialogue, humour, and powerful emotional takeaways that resonate with youth.'],
-      ['Energetic Ensemble Rehearsals','Rehearsing dynamic choreography, rhythm, and interactive cues to captivate fast-moving student audiences.'],
-      ['Auditorium & Campus Staging','Coordinating with institution coordinators for open-air amphitheatre, quadrangle, or auditorium staging.'],
-      ['Interactive Live Performance','High-impact performances accompanied by live music, slogans, and post-play Q&A interactions.'],
-      ['Documentation & Student Feedback','Compiling visual highlights, faculty testimonials, and student engagement data.']
+      ['Objective & Age Group Assessment','We begin by understanding the institution\'s objective and the age group involved to ensure the messaging connects with the specific audience.'],
+      ['Age-Appropriate Scripting','Content is written to be age-appropriate, calibrating pacing and tone differently for middle school, senior secondary, or college audiences.'],
+      ['Workshop & Skill Building','We offer optional workshop components where students learn the basics of street theatre, perfect for preparing for inter-house or inter-school competitions.'],
+      ['Administration Coordination','Scheduling is coordinated directly with the school or college administration, working seamlessly around exam periods and assembly timings.'],
+      ['Assembly & Campus Staging','Performances are structured to fit within a specific assembly slot or scheduled awareness session at the requested duration.'],
+      ['Multi-Campus Execution','For networks running initiatives across multiple campuses, we plan execution as a single coordinated program to maintain consistent message quality.']
+    ],
+    faqs: [
+      ['1. What topics are commonly covered in school and college nukkad natak programs?','Common topics include road safety, digital literacy, substance abuse, mental health awareness, gender sensitisation and civic responsibility, chosen to match the institution\'s awareness calendar or a specific event.'],
+      ['2. Can you conduct nukkad natak workshops in addition to performances?','Yes. Alongside a performance, we offer workshops where students learn the basics of street theatre, which is particularly useful for institutions preparing students for inter-house or inter-school competitions.'],
+      ['3. Is the content customized for different age groups?','Yes. Scripts, pacing and tone are adapted separately for school-age and college-age audiences, since the same theme requires different treatment depending on the age group.'],
+      ['4. Do you work with multiple schools or campuses under one program?','Yes. For school networks or college groups running a shared awareness initiative, execution is planned as a single coordinated programme across all campuses involved.'],
+      ['5. How long does a typical school assembly nukkad natak performance last?','Assembly performances are generally kept short enough to fit within a standard assembly slot, with exact duration agreed in advance based on the institution\'s schedule.']
     ]},
   { slug:'posh-awareness-training-nukkad-natak', title:'POSH Awareness Training Nukkad Natak', short:'Dramatised workplace scenarios and street theatre that make POSH compliance training engaging, relatable, and easy to understand.', applications:['Internal Committee (IC) awareness','Workplace sensitivity & inclusion','Corporate compliance & prevention of harassment'],
     steps:[
