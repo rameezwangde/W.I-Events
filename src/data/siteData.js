@@ -1,5 +1,5 @@
 export const contact = {
-  name: 'W.I. Events & Promotions', person: 'Neelesh Kumar', phone: '+91 84477 50546',
+  name: 'Natak Baaz', person: 'Neelesh Kumar', phone: '+91 84477 50546',
   phoneHref: 'tel:+918447750546', email: 'nukkadnatakgroup@gmail.com',
   address: 'First Floor, Aashirwad Complex, Pitampura, New Delhi – 110034, India',
   whatsapp: 'https://wa.me/918447750546?text=Hello%20W.I.%20Events%2C%20I%20would%20like%20to%20plan%20a%20campaign.'
@@ -277,7 +277,7 @@ export const topics = [
 export const faqs = [
   ['What is Nukkad Natak?','Nukkad Natak is street theatre performed in an open public setting. It uses live acting, music, rhythm and direct audience interaction to communicate a social, civic or brand message.'],
   ['How can street theatre support a CSR campaign?','It brings complex themes into a shared human experience, making a CSR message easier to understand, discuss and remember.'],
-  ['Do you organise performances outside Delhi?','Yes. W.I. Events & Promotions plans campaigns across Delhi NCR and coordinates pan-India on-ground activity.'],
+  ['Do you organise performances outside Delhi?','Yes. Natak Baaz plans campaigns across Delhi NCR and coordinates pan-India on-ground activity.'],
   ['Can performances be customised for a brand or social topic?','Yes. The script, language, tone, cast and audience interaction can be shaped around the campaign brief and location.'],
   ['Do you provide scriptwriting and performers?','Yes. The team supports research, script development, casting, rehearsal, production planning and performance execution.'],
   ['Can Nukkad Natak be combined with roadshows or rural activations?','Yes. Street theatre can form the live engagement layer within a wider roadshow, rural marketing or public outreach plan.'],
@@ -295,9 +295,9 @@ export const process = [
 ]
 
 export const seo = {
-  '/': ['Nukkad Natak Company in Delhi | W.I. Events & Promotions','Professional Nukkad Natak, CSR campaigns, roadshows, theatre productions and rural activations delivered across Delhi and India.'],
-  '/about': ['About W.I. Events & Promotions | Delhi Street Theatre Team','Meet the Delhi-based team combining Nukkad Natak, scriptwriting, theatre production and pan-India outreach planning.'],
+  '/': ['Nukkad Natak Company in Delhi | Natak Baaz','Professional Nukkad Natak, CSR campaigns, roadshows, theatre productions and rural activations delivered across Delhi and India.'],
+  '/about': ['About Natak Baaz | Delhi Street Theatre Team','Meet the Delhi-based team combining Nukkad Natak, scriptwriting, theatre production and pan-India outreach planning.'],
   '/services': ['Nukkad Natak, CSR Campaign & Roadshow Services in India','Explore street plays, CSR awareness campaigns, roadshows, rural marketing, theatre and brand activation services.'],
   '/topics': ['Nukkad Natak Topics for CSR & Awareness Campaigns','Explore social, health, education, safety, environment and government awareness topics for customised street plays.'],
-  '/contact': ['Plan a Nukkad Natak or Awareness Campaign in Delhi','Contact W.I. Events & Promotions for Nukkad Natak, CSR, roadshow and outreach campaign planning across India.']
+  '/contact': ['Plan a Nukkad Natak or Awareness Campaign in Delhi','Contact Natak Baaz for Nukkad Natak, CSR, roadshow and outreach campaign planning across India.']
 }

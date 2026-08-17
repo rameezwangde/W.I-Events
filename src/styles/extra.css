@@ -147,7 +147,7 @@
 
 .accordion {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem
@@ -197,7 +197,8 @@
     margin: 0;
     max-width: 760px;
     line-height: 1.7;
-    color: #aaa29a
+    color: #333;
+    font-weight: 500
 }
 
 .accordion__item.is-open .accordion__answer {
@@ -660,3 +661,9 @@
     margin: 0;
     font-size: .92rem
 }
+.faq-grid { max-width: 1200px; margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; } 
+.faq-card { border: 1px solid #333; padding: 2rem; border-radius: 6px; } 
+.faq-card span { font-size: 0.65rem; color: var(--saffron); display: block; margin-bottom: 1rem; font-weight: 700; } 
+.faq-card h3 { font-size: 1.1rem; font-weight: 700; margin: 0 0 1rem 0; } 
+.faq-card p { color: #333; line-height: 1.7; margin: 0; font-weight: 500; } 
+@media(max-width:900px){ .faq-grid { grid-template-columns: 1fr; } }

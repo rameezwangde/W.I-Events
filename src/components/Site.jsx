@@ -17,7 +17,7 @@ export const WhatsAppIcon = () => (
 )
 export function SEO({ title, description, schema, path }) {
   const location = useLocation(); const key = path || location.pathname
-  const fallback = seo[key] || ['W.I. Events & Promotions | Nukkad Natak Delhi', 'Street theatre, CSR outreach, roadshows and awareness campaigns across Delhi NCR and India.']
+  const fallback = seo[key] || ['Natak Baaz | Nukkad Natak Delhi', 'Street theatre, CSR outreach, roadshows and awareness campaigns across Delhi NCR and India.']
   const canonical = `https://www.nukkadnatak.in${key === '/' ? '' : key}`
   return <Helmet>
     <title>{title || fallback[0]}</title><meta name="description" content={description || fallback[1]} />
@@ -81,13 +81,13 @@ export function Layout({ children }) {
   return <><div className="scroll-progress" ref={progress} /><Header /><main id="main-content">{children}</main><Footer /><a href={contact.whatsapp} target="_blank" rel="noreferrer" className="whatsapp" aria-label="Enquire on WhatsApp"><WhatsAppIcon /></a><div className="mobile-actions"><a href={contact.phoneHref}><Phone />Call Now</a><Link to="/contact">Get a Quote</Link></div></>
 }
 
-export function PageHero({ eyebrow = 'W.I. Events & Promotions', title, copy, image = true }) { return <section className={`page-hero ${image ? 'page-hero--image' : ''}`}><div className="noise" /><div className="page-hero__content"><span className="eyebrow">{eyebrow}</span><h1>{title}</h1>{copy && <p>{copy}</p>}</div></section> }
+export function PageHero({ eyebrow = 'Natak Baaz', title, copy, image = true }) { return <section className={`page-hero ${image ? 'page-hero--image' : ''}`}><div className="noise" /><div className="page-hero__content"><span className="eyebrow">{eyebrow}</span><h1>{title}</h1>{copy && <p>{copy}</p>}</div></section> }
 
 export function SectionTitle({ eyebrow, title, copy, dark = false }) { const ref = useRef(); useEffect(() => { if (matchMedia('(prefers-reduced-motion: reduce)').matches) return; const ctx = gsap.context(() => gsap.from(ref.current.children, { y: 36, opacity: 0, stagger: .1, duration: .7, ease: 'power3.out', scrollTrigger: { trigger: ref.current, start: 'top 82%' } }), ref); return () => ctx.revert() }, []); return <div ref={ref} className={`section-title ${dark ? 'section-title--dark' : ''}`}><span className="eyebrow">{eyebrow}</span><h2>{title}</h2>{copy && <p>{copy}</p>}</div> }
 
 export function Breadcrumbs({ items }) { return <nav className="breadcrumbs" aria-label="Breadcrumb"><Link to="/">Home</Link>{items.map((x, i) => <span key={x.path || x.name}>/ {x.path ? <Link to={x.path}>{x.name}</Link> : x.name}</span>)}</nav> }
 
-export function Accordion({ items, showNumbers = true }) { const [open, setOpen] = useState(0); return <div className="accordion">{items.map(([q, a], i) => <div className={`accordion__item ${open === i ? 'is-open' : ''}`} key={q}><button onClick={() => setOpen(open === i ? -1 : i)} aria-expanded={open === i}>{showNumbers && <span>{String(i + 1).padStart(2, '0')}</span>}{q}<ChevronDown /></button><div className="accordion__answer"><p>{a}</p></div></div>)}</div> }
+export function Accordion({ items, showNumbers = true }) { const [open, setOpen] = useState({ 0: true }); const toggle = (i) => setOpen(prev => ({ ...prev, [i]: !prev[i] })); return <div className="accordion">{items.map(([q, a], i) => <div className={`accordion__item ${open[i] ? 'is-open' : ''}`} key={q}><button onClick={() => toggle(i)} aria-expanded={!!open[i]}>{showNumbers && <span>{String(i + 1).padStart(2, '0')}</span>}{q}<ChevronDown /></button><div className="accordion__answer"><p>{a}</p></div></div>)}</div> }
 
 export function ContactCTA({ bgImage = '/images/nukkad-natak-delhi-performance.webp' }) { return <section className="contact-cta" style={{ background: `linear-gradient(90deg,#151311f2,#15131159), url('${bgImage}') center/cover` }}><div><span className="eyebrow">YOUR MESSAGE. OUR STAGE.</span><h2>Have a Message People Need to Hear?</h2><p>Let’s turn it into a performance that informs, engages and stays with the audience.</p><div className="button-row"><ButtonLink light>Get a Quote</ButtonLink><a className="text-link" href={contact.phoneHref}>Call {contact.phone}<ArrowUpRight /></a></div></div></section> }
 
