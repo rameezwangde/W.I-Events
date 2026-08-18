@@ -181,6 +181,7 @@ img {
   min-height: 720px;
   position: relative;
   color: #c8352d;
+  background: var(--ink);
   overflow: hidden
 }
 
