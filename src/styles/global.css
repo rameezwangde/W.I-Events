@@ -180,7 +180,7 @@ img {
   height: 100svh;
   min-height: 720px;
   position: relative;
-  color: var(--cream);
+  color: #c8352d;
   overflow: hidden
 }
 
@@ -232,7 +232,7 @@ img {
 }
 
 .hero h1 .accent {
-  color: #eb6c42
+  color: #c8352d
 }
 
 .hero__intro {
@@ -249,7 +249,8 @@ img {
 .hero__intro small {
   display: block;
   margin-top: 1.2rem;
-  opacity: .65
+  opacity: .65;
+  font-weight: bold
 }
 
 .hero__scroll {
@@ -705,7 +706,7 @@ img {
   height: 100svh;
   min-height: 720px;
   position: relative;
-  color: var(--cream);
+  color: #c8352d;
   overflow: hidden
 }
 
@@ -757,7 +758,7 @@ img {
 }
 
 .hero h1 .accent {
-  color: #eb6c42
+  color: #c8352d
 }
 
 .hero__intro {
@@ -774,7 +775,8 @@ img {
 .hero__intro small {
   display: block;
   margin-top: 1.2rem;
-  opacity: .65
+  opacity: .65;
+  font-weight: bold
 }
 
 .hero__scroll {
