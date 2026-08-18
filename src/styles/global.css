@@ -243,14 +243,16 @@ img {
 .hero__intro p {
   font-size: clamp(.95rem, 1.2vw, 1.1rem);
   line-height: 1.7;
-  color: #eee4d3
+  color: white;
+  font-weight: bold
 }
 
 .hero__intro small {
   display: block;
   margin-top: 1.2rem;
   opacity: .65;
-  font-weight: bold
+  font-weight: bold;
+  color: white
 }
 
 .hero__scroll {
