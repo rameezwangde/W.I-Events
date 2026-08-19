@@ -35,7 +35,7 @@ export function Header() {
   useEffect(() => { setOpen(false) }, [location]); useEffect(() => { const fn = () => setScrolled(window.scrollY > 40); window.addEventListener('scroll', fn, { passive: true }); fn(); return () => window.removeEventListener('scroll', fn) }, [])
   useEffect(() => { document.body.style.overflow = open ? 'hidden' : ''; return () => document.body.style.overflow = '' }, [open])
   return <header className={`header ${scrolled ? 'is-scrolled' : ''}`}>
-    <Link to="/" className="brand" aria-label="Natak Baaz Home"><img src="/images/logo.png?v=3" alt="Natak Baaz" className="header__logo-img" style={{ maxHeight: '120px', width: 'auto' }} /></Link>
+    <Link to="/" className="brand" aria-label="Natak Baaz Home"><img src="/images/logo.png?v=3" alt="Natak Baaz" className="header__logo-img" style={{ maxHeight: '120px', width: 'auto' }} fetchpriority="high" width="200" height="120" /></Link>
     <nav className="desktop-nav" aria-label="Main navigation">{nav.map(([n, p]) => <NavLink key={p} to={p}>{n}</NavLink>)}<ButtonLink>Get a Quote</ButtonLink></nav>
     <button className="menu-toggle" onClick={() => setOpen(!open)} aria-expanded={open} aria-label="Open menu">{open ? <X /> : <Menu />}</button>
     <div className={`mobile-menu ${open ? 'is-open' : ''}`} aria-hidden={!open}><div className="mobile-menu__inner">{nav.map(([n, p]) => <NavLink key={p} to={p}>{n}</NavLink>)}<a href={contact.phoneHref}>{contact.phone}</a></div></div>
