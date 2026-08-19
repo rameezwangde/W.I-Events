@@ -297,7 +297,7 @@ export const process = [
 export const seo = {
   '/': ['NukkadBaaz – The Nukkad Natak Group | Street Play Experts', 'NukkadBaaz – The Nukkad Natak Group brings impactful street plays for awareness campaigns, social causes, government initiatives, and brand activations across India.'],
   '/about': ['About NukkadBaaz | The Nukkad Natak Group', 'Learn about NukkadBaaz, a professional Nukkad Natak group creating engaging street plays for awareness campaigns, social causes, government initiatives and brands.'],
-  '/services': ['Nukkad Natak, CSR Campaign & Roadshow Services in India','Explore street plays, CSR awareness campaigns, roadshows, rural marketing, theatre and brand activation services.'],
+  '/services': ['Nukkad Natak Services | NukkadBaaz – The Nukkad Natak Group', 'Explore NukkadBaaz services including Nukkad Natak, government awareness campaigns, corporate activations, social awareness plays, brand promotions and street theatre.'],
   '/topics': ['Nukkad Natak Topics for CSR & Awareness Campaigns','Explore social, health, education, safety, environment and government awareness topics for customised street plays.'],
-  '/contact': ['Plan a Nukkad Natak or Awareness Campaign in Delhi','Contact Natak Baaz for Nukkad Natak, CSR, roadshow and outreach campaign planning across India.']
+  '/contact': ['Contact NukkadBaaz | The Nukkad Natak Group', 'Get in touch with NukkadBaaz for Nukkad Natak, street plays, awareness campaigns, brand activations and social impact performances across India.']
 }
