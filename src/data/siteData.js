@@ -84,6 +84,8 @@ export const services = [
       ['5. How long does a typical school assembly nukkad natak performance last?','Assembly performances are generally kept short enough to fit within a standard assembly slot, with exact duration agreed in advance based on the institution\'s schedule.']
     ]},
   { slug:'posh-awareness-training-nukkad-natak', title:'POSH Awareness Training Nukkad Natak',
+    seoTitle: 'POSH Awareness Nukkad Natak | Workplace Training | NukkadBaaz',
+    seoDescription: 'NukkadBaaz uses engaging Nukkad Natak to deliver POSH awareness training, helping employees understand workplace harassment, prevention, reporting and respectful conduct.',
     pageTitle: 'POSH Awareness Training Nukkad Natak',
     contentSections: [
       {
