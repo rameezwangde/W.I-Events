@@ -161,6 +161,8 @@ export const services = [
       ['5. Can social awareness nukkad natak be combined with other IEC formats like wall painting?','Yes. Social awareness street theatre is frequently delivered as part of a wider IEC campaign that includes wall paintings, pamphlets or van publicity, and we coordinate scheduling to fit within that larger effort.']
     ]},
   { slug:'brand-promotion-nukkad-natak', title:'Brand Promotion Nukkad Natak',
+    seoTitle: 'Brand Promotion Nukkad Natak | Street Marketing | NukkadBaaz',
+    seoDescription: 'NukkadBaaz creates engaging Brand Promotion Nukkad Natak campaigns that connect brands with audiences through interactive street theatre, storytelling and live engagement.',
     pageTitle: 'Brand Promotion Nukkad Natak',
     contentSections: [
       {
