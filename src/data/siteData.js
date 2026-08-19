@@ -123,6 +123,8 @@ export const services = [
       ['5. Is this suitable for both white-collar offices and factory floor employees?','Yes. Format, language and delivery style are adapted separately for office environments and factory or plant settings, since the two audiences engage differently with the same core message.']
     ]},
   { slug:'social-awareness-nukkad-natak', title:'Social Awareness Nukkad Natak',
+    seoTitle: 'Social Awareness Nukkad Natak Services | NukkadBaaz',
+    seoDescription: 'NukkadBaaz delivers powerful Social Awareness Nukkad Natak on health, sanitation, education, safety, gender equality, social issues and community welfare.',
     pageTitle: 'Social Awareness Nukkad Natak',
     contentSections: [
       {
