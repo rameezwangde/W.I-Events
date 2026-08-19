@@ -237,6 +237,8 @@ export const services = [
       ['5. Can culture-building nukkad natak be performed at town halls or offsite events?','Yes. Performances are commonly scheduled at town halls, offsites, onboarding sessions and leadership meets, structured to fit within the existing agenda.']
     ]},
   { slug:'ngo-nukkad-natak', title:'NGO Nukkad Natak',
+    seoTitle: 'NGO Nukkad Natak Services | Social Impact Street Plays | NukkadBaaz',
+    seoDescription: 'NukkadBaaz partners with NGOs for impactful Nukkad Natak campaigns on social issues, health, education, sanitation, gender equality and community awareness.',
     pageTitle: 'NGO Nukkad Natak',
     contentSections: [
       {
