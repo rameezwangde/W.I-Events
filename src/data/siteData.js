@@ -46,6 +46,8 @@ export const services = [
       ['5. Is nukkad natak suitable for rural and semi-urban government awareness drives?','Yes. Street theatre is particularly effective in rural and semi-urban areas where literacy levels and digital access can limit the reach of printed or online communication.']
     ]},
   { slug:'school-college-nukkad-natak', title:'School & College Nukkad Natak',
+    seoTitle: 'School & College Nukkad Natak Services | NukkadBaaz',
+    seoDescription: 'NukkadBaaz creates engaging Nukkad Natak performances for schools and colleges, covering social awareness, education, values, safety, health and youth-focused themes.',
     pageTitle: 'School & College Nukkad Natak Programs',
     contentSections: [
       {
