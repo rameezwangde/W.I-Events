@@ -7,6 +7,8 @@ export const contact = {
 
 export const services = [
   { slug:'government-iec-nukkad-natak', title:'Government & IEC Nukkad Natak',
+    seoTitle: 'Government & IEC Nukkad Natak Services | NukkadBaaz',
+    seoDescription: 'NukkadBaaz delivers impactful Government & IEC Nukkad Natak campaigns for public awareness, social welfare, health, sanitation, education and community outreach.',
     pageTitle: 'Government & IEC Nukkad Natak Campaigns',
     contentSections: [
       {
