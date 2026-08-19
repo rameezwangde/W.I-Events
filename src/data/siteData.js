@@ -199,6 +199,8 @@ export const services = [
       ['5. Do you provide footfall or engagement reporting after the campaign?','Yes. We provide a report covering the locations performed, approximate footfall and audience engagement for each stop of the campaign.']
     ]},
   { slug:'corporate-culture-nukkad-natak', title:'Corporate Culture Building Nukkad Natak',
+    seoTitle: 'Corporate Culture Building Nukkad Natak | NukkadBaaz',
+    seoDescription: 'NukkadBaaz uses interactive Nukkad Natak to strengthen corporate culture, employee engagement, teamwork, workplace values, communication and organizational awareness.',
     pageTitle: 'Corporate Culture Building Nukkad Natak',
     contentSections: [
       {
