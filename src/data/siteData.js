@@ -1,6 +1,6 @@
 export const contact = {
   name: 'Natak Baaz', person: 'Neelesh Kumar', phone: '+91 93133 41838',
-  phoneHref: 'tel:+919313341838', email: 'nukkadnatakgroup@gmail.com',
+  phoneHref: 'tel:+919313341838', email: 'dubeyrajesh41@gmail.com',
   address: 'First Floor, Aashirwad Complex, Pitampura, New Delhi, Delhi 110034',
   whatsapp: 'https://wa.me/919313341838?text=Hello%20W.I.%20Events%2C%20I%20would%20like%20to%20plan%20a%20campaign.'
 }
